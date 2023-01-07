@@ -1,0 +1,59 @@
+body {
+  background-color: #282c34;
+  color: #E06C75;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  color: #E06C75;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+a:visited {
+  color: #E06C75;
+
+}
+
+a:hover{
+  color: #98C379;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+hr {
+  border: 1px solid;
+  color:#98C379;
+  margin-top: 0px;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: relative;
+  margin-top: 8px;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.navbar li {
+  list-style: none;
+  padding: 15px;
+}
+
+.mobile i {
+  color: #E06C75;
+}
+
