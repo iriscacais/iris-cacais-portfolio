@@ -1,12 +1,15 @@
 import './App.css';
 import React from 'react';
 import Header from './components/Header';
+import Sobre from './components/Sobre';
+
 class App extends React.Component {
   render() {
     return (
       <>
       <Header />
-      <main>Iris Cacais</main>
+      <Sobre />
+      <main></main>
       </>
       
     )

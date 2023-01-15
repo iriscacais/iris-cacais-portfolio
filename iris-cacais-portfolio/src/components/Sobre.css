@@ -1,0 +1,20 @@
+.foto {
+    border-radius: 150px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    width: 260px;
+}
+
+.divImage {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.divSubtitle {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
