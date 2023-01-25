@@ -1,0 +1,34 @@
+h2 {
+    color: #f39cab;
+    text-align: center;
+}
+
+.hardSkills {
+    align-items: center;
+    border: 1px solid #f39cab;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.hardSkills p {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.divSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+}
+
+.logoSkills {
+    width: 95px;
+}

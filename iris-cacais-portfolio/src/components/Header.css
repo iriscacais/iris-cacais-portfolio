@@ -1,17 +1,18 @@
-a {
-    color: #E06C75;
+.navbar {
+    color: #f39cab;
+    display: flex;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     transition: 0.3s ease-in-out;
   }
   
-  a:visited {
-    color: #E06C75;
+  .navbar:visited {
+    color: #f39cab;
   
   }
   
-  a:hover{
+  .navbar:hover{
     color: #98C379;
   }
   
@@ -21,15 +22,14 @@ a {
   }
   
   hr {
-    border: 1px solid;
-    color:#98C379;
+    border: 2px solid;
+    color:#f39cab;
     margin-top: 0px;
+    margin-bottom: 0;
   }
   
   .title {
-    align-items: center;
     display: flex;
-    justify-content: space-between;
     padding: 0 20px;
     position: relative;
     margin-top: 8px;
@@ -51,9 +51,20 @@ a {
   }
   
   .mobile i {
-    color: #E06C75;
+    color: #f39cab;
     align-items: center;
   }
+
+  header {
+    align-items: center;
+    background-color: #11172a;
+    box-shadow: 1px 1px 10px #fac0ca;
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    padding: 5px;
+    width: 100%;
+   }
   
   @media screen and (max-width: 769px) {
     #navbar {
@@ -71,7 +82,7 @@ a {
     }
   
     #navbar.active {
-      background-color: #282c34;
+      background-color: #11172a;
       right: 0px;
     }
   

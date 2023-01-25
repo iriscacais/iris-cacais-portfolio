@@ -1,0 +1,51 @@
+.divBanner {
+    align-items: flex-start;
+    background-image: url(./banner2jpeg.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.divBanner h2 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 16px;
+    margin-left: 45px;
+}
+
+.divBanner p {
+    color: white;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.botoes {
+    background-image: linear-gradient(90deg, #f39cab .6%, #cb3cae 190%);
+    border: 1px solid #E06C75;
+    border-radius: 26px;
+    color: aliceblue;
+    font-weight: bold;
+    margin-right: 2%;
+    padding: 0.5rem 0.4rem;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    width: 190px;
+   
+}
+.botoes:hover{
+    color: aliceblue;
+  }
+
+  .content {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 7%;
+    margin-top: 30px;
+}

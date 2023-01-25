@@ -3,18 +3,16 @@ import './Sobre.css'
 
 
 class Sobre extends React.Component {
+  
     render() {
         return (
-            <>
-              <div className="divImage">
-                <img src='./iris.png' alt="Foto de Iris" className="foto" /> 
-                <div className="divSubtitle">
-                <h2 className="saudacao">Olá, eu sou a Iris!</h2>
-                <p className="paragrafo">Estudante de desenvolvimento web da escola de programação Trybe. Sejam bem-vindos(as) ao meu portfólio.</p>
-                </div>
+            <section>
+              <div className="divImage" >
+                <img id="sobreMim" src='./iris.png' alt="Foto de Iris" className="foto" /> 
+                <p>Morbi cursus tortor neque, porttitor facilisis lorem gravida et. Mauris in est a dui convallis sagittis sit amet ut quam. Duis vehicula dolor et ligula finibus, ac eleifend augue imperdiet. Vestibulum ac rhoncus mauris. Duis ac egestas leo. Etiam non nibh in ante iaculis dapibus eget eu orci. Vivamus luctus pulvinar libero, in vestibulum eros rutrum in. Vestibulum tincidunt sed ipsum sit amet fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
               </div>
-                
-            </>
+            </section>
+            
         )
     }
 }
