@@ -1,0 +1,26 @@
+.divContato {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divContato i {
+    font-size: 28px;
+    color: #f39cab;
+    text-decoration: none;
+}
+
+.divContato a {
+    font-size: 28px;
+    color: #f39cab;
+    text-decoration: none;
+}
+
+.divContato a:hover {
+    color: #98C379; 
+}
+
+.divContato p {
+    color: #f39cab;
+    font-size: 18px;
+}
+

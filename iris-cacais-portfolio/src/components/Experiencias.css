@@ -1,0 +1,26 @@
+.divExperiencias {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.divExperiencias h4 {
+    color: white;
+}
+
+.divExperiencias li {
+        color: white;
+        font-size: 20px;
+}
+
+.divExperiencias a {
+    color: #f39cab;
+    text-decoration: none;
+}
+
+.divExperiencias a:hover {
+    color: #98C379;
+    
+}

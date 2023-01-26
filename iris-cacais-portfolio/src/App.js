@@ -5,6 +5,9 @@ import Sobre from './components/Sobre';
 import Banner from './components/Banner';
 import Habilidades from './components/Habilidades';
 import Projetos from './components/Projetos';
+import Experiencias from './components/Experiencias';
+import Contato from './components/Contato';
+import Footer from './components/Footer';
 
 class App extends React.Component {
   render() {
@@ -15,7 +18,9 @@ class App extends React.Component {
       <Sobre />
       <Habilidades />
       <Projetos />
-  
+      <Experiencias />
+      <Contato />
+      <Footer />
       </>
       
     )

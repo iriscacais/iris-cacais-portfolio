@@ -21,8 +21,8 @@ class Header extends React.Component {
                         <li><a href="#sobreMim" className="navbar">Sobre</a></li>
                         <li><a href="#habilidades"className="navbar" >Hard Skills</a></li>
                         <li><a href="#projetos"className="navbar" >Projetos</a></li>
-                        <li><a href="ndex.htmlindex.html" className="navbar">Experiências</a></li>
-                        <li><a href="index.html"className="navbar" >Contato</a></li>
+                        <li><a href="#experiencias" className="navbar">Experiências</a></li>
+                        <li><a href="#contato"className="navbar" >Contato</a></li>
                     </ul>
                 </div>
                 <div className="mobile" onClick={this.handleClick}>

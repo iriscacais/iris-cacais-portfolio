@@ -1,27 +1,36 @@
 h2 {
+    display: flex;
     color: #f39cab;
+    justify-content: center;
     text-align: center;
+}
+.divProjetos {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px;
+    justify-content: center;
+    margin: 5px;
     position: relative;
-    width: 810px;  
+    width: 700px;  
  }
 
  .container .card {
     background-color: #f39cab;
-    border: 1px solid #f39cab;
+    border: 1px solid #000000;
     border-radius: 8px;
     color: white;
     display: flex;
     height: 250px;
     margin: 30px 60px;
     position: relative;
-    width: 45%; 
+    width: 360px; 
  }
 
  .container .card .imgBx {
@@ -54,9 +63,9 @@ h2 {
  .container .card .content {
     align-items: center;
     display: flex;
-    height: 100%;
+    height: 86%;
     justify-content: center;
-    padding: 20px;
+    padding: 18px;
     position: absolute;
     right: 0;
     width: calc(100% - 75px); 
@@ -80,7 +89,20 @@ h2 {
     text-decoration: none;
  }
 
+ .container .card .content a:hover {
+    color: white;
+  
+ }
+
  @media(max-width: 999px) {
+    .divProjetos {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
     .container{
         align-items: center;
         flex-direction: column;
@@ -88,32 +110,61 @@ h2 {
     }
 
     .container .card {
-        width: 400px;
+        width: 360px;
     }
 
     .container .card .imgBx {
-        position: relative;
-    }
-    .container .card .imgBx,
-    .container .card:hover .imgBx {
-        height: 220px;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
         left: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        transition: 0.5s ease-in-out;
         width: 100%;
+        z-index: 1;  
+        
+    }
+    .container .card:hover .imgBx  {
+        height: 150px;
+        left: -75px;
+        top: calc(50% - 75px);
+        transition: 0.5s ease-in-out;
+        width: 150px; 
+        
     }
 
     .container .card .imgBx img,
     .container .card:hover .imgBx img {
-        max-width: 300px;
+        max-width: 358px;
 
     }
 
     .container .card .content {
-        position: relative;
-        width: 100%;
+        align-items: center;
+        display: flex;
+        height: 90%;
+        justify-content: center;
+        padding: 20px;
+        position: absolute;
+        right: 0;
+        width: calc(100% - 75px);
+       
     }
  }
 
  @media (max-width: 768px){
+    .divProjetos {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
     .container .card {
         max-width: 300px;
         flex-direction: column;
@@ -142,3 +193,5 @@ h2 {
         width: 100%;
     }
  }
+
+ 
