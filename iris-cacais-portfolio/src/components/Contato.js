@@ -9,10 +9,12 @@ class Contato extends React.Component {
                 <h2 id="contato">Contato</h2>
                 <br></br>
                 <div className="divContato">
-                <a href="mailto:mandeparairis@gmail.com"><i className="fa-regular fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/iriscacais/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/iriscacais"><i class="fa-brands fa-github"></i></a>
-                <p><i class="fa-brands fa-whatsapp"></i>(11)95142-8270</p>
+                    <ul>
+                        <li><a href="mailto:mandeparairis@gmail.com"><i class="fa-regular fa-envelope"></i></a></li> 
+                        <li><a href="https://www.linkedin.com/in/iriscacais/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/iriscacais" ><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=55011951428270"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
                 </div>
            </main> 
         )

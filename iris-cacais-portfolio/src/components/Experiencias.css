@@ -1,3 +1,8 @@
+#experiencias {
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+
 .divExperiencias {
     align-items: flex-start;
     display: flex;
@@ -23,4 +28,16 @@
 .divExperiencias a:hover {
     color: #98C379;
     
+}
+
+@media screen and (max-width: 769px) {
+    #experiencias{
+        margin-top: 20%;
+    }
+
+    .divExperiencias {
+        margin-top: 5%;
+        margin-bottom: 10%;
+       
+    }
 }

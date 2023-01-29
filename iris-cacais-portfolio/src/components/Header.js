@@ -11,9 +11,6 @@ class Header extends React.Component {
         return (
 
             <header className="header">
-                <a href="index.html" className="navbar">
-                  <h1>Portfólio</h1>
-                </a>
               <nav className="title">
                 
                 <div>

@@ -1,26 +1,34 @@
-.divContato {
+.divContato ul{
     display: flex;
     justify-content: space-evenly;
 }
 
-.divContato i {
-    font-size: 28px;
-    color: #f39cab;
-    text-decoration: none;
+.divContato li {
+    color: white;
+    display: flex;
+    font-size: 20px;
+    list-style: none;
 }
 
 .divContato a {
-    font-size: 28px;
-    color: #f39cab;
-    text-decoration: none;
+color: #f39cab;
+font-size: 28px;
+text-decoration: none;
 }
 
 .divContato a:hover {
-    color: #98C379; 
+color: #98C379;
+
 }
 
-.divContato p {
-    color: #f39cab;
-    font-size: 18px;
+#contato{
+    margin-bottom: 4%;
+    margin-top: 10%;
 }
+
+.divContato {
+    margin-bottom: 5%;
+}
+
+
 

@@ -12,7 +12,7 @@
   
   }
   
-  .navbar:hover{
+  .navbar:hover {
     color: #98C379;
   }
   
@@ -98,4 +98,6 @@
       font-size: 24px;
       cursor: pointer;
     }
+
+   
   }
