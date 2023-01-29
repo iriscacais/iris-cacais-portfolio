@@ -6,7 +6,7 @@ class Contato extends React.Component {
     render() {
         return (
             <main>
-                <h2 id="contato">Contatooooo</h2>
+                <h2 id="contato">Contato</h2>
                 <br></br>
                 <div className="divContato">
                     <ul>
