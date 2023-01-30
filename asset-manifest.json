@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/iriscacais.github.io/static/css/main.c4181bca.css",
+    "main.js": "/iriscacais.github.io/static/js/main.30f8eee5.js",
+    "static/js/787.ec144382.chunk.js": "/iriscacais.github.io/static/js/787.ec144382.chunk.js",
+    "static/media/banner1.jpeg": "/iriscacais.github.io/static/media/banner1.5753696fd3c3a8470a02.jpeg",
+    "static/media/banner13jpg.jpg": "/iriscacais.github.io/static/media/banner13jpg.b30c16ce801667dfcfb1.jpg",
+    "index.html": "/iriscacais.github.io/index.html",
+    "main.c4181bca.css.map": "/iriscacais.github.io/static/css/main.c4181bca.css.map",
+    "main.30f8eee5.js.map": "/iriscacais.github.io/static/js/main.30f8eee5.js.map",
+    "787.ec144382.chunk.js.map": "/iriscacais.github.io/static/js/787.ec144382.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4181bca.css",
+    "static/js/main.30f8eee5.js"
+  ]
+}
