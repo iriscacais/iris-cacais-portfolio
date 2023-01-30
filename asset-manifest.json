@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/app-toot-name/static/css/main.501de58a.css",
-    "main.js": "/app-toot-name/static/js/main.e58a25c8.js",
-    "static/js/787.ec144382.chunk.js": "/app-toot-name/static/js/787.ec144382.chunk.js",
-    "static/media/banner1.jpeg": "/app-toot-name/static/media/banner1.5753696fd3c3a8470a02.jpeg",
-    "static/media/banner13jpg.jpg": "/app-toot-name/static/media/banner13jpg.b30c16ce801667dfcfb1.jpg",
-    "index.html": "/app-toot-name/index.html",
-    "main.501de58a.css.map": "/app-toot-name/static/css/main.501de58a.css.map",
-    "main.e58a25c8.js.map": "/app-toot-name/static/js/main.e58a25c8.js.map",
-    "787.ec144382.chunk.js.map": "/app-toot-name/static/js/787.ec144382.chunk.js.map"
+    "main.css": "/iriscacais/static/css/main.0bbb9708.css",
+    "main.js": "/iriscacais/static/js/main.3faa9a1b.js",
+    "static/js/787.ec144382.chunk.js": "/iriscacais/static/js/787.ec144382.chunk.js",
+    "static/media/banner1.jpeg": "/iriscacais/static/media/banner1.5753696fd3c3a8470a02.jpeg",
+    "static/media/banner13jpg.jpg": "/iriscacais/static/media/banner13jpg.b30c16ce801667dfcfb1.jpg",
+    "index.html": "/iriscacais/index.html",
+    "main.0bbb9708.css.map": "/iriscacais/static/css/main.0bbb9708.css.map",
+    "main.3faa9a1b.js.map": "/iriscacais/static/js/main.3faa9a1b.js.map",
+    "787.ec144382.chunk.js.map": "/iriscacais/static/js/787.ec144382.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.501de58a.css",
-    "static/js/main.e58a25c8.js"
+    "static/css/main.0bbb9708.css",
+    "static/js/main.3faa9a1b.js"
   ]
 }
