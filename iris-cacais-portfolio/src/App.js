@@ -16,9 +16,9 @@ class App extends React.Component {
       <Header />
       <Banner />
       <Sobre />
+      <Experiencias />
       <Habilidades />
       <Projetos />
-      <Experiencias />
       <Contato />
       <Footer />
       </>
