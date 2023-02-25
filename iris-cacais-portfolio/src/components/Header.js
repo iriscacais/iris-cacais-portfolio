@@ -10,11 +10,10 @@ class Header extends React.Component {
     render() {
         return (
 
-            <header className="header">
+            <header className="headerMenu">
               <nav className="title">
                 
                 <div>
-                    <h2>iris</h2>
                     <ul  id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
                         <li><a href="#sobreMim" className="navbar">Sobre</a></li>
                         <li><a href="#habilidades"className="navbar" >Hard Skills</a></li>
