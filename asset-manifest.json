@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/iris-cacais-portfolio/static/css/main.660de03c.css",
-    "main.js": "/iris-cacais-portfolio/static/js/main.d681e4ac.js",
+    "main.css": "/iris-cacais-portfolio/static/css/main.cb32f111.css",
+    "main.js": "/iris-cacais-portfolio/static/js/main.504a6e70.js",
     "static/js/787.ec144382.chunk.js": "/iris-cacais-portfolio/static/js/787.ec144382.chunk.js",
     "static/media/banner1.jpeg": "/iris-cacais-portfolio/static/media/banner1.5753696fd3c3a8470a02.jpeg",
     "static/media/banner13jpg.jpg": "/iris-cacais-portfolio/static/media/banner13jpg.b30c16ce801667dfcfb1.jpg",
     "index.html": "/iris-cacais-portfolio/index.html",
-    "main.660de03c.css.map": "/iris-cacais-portfolio/static/css/main.660de03c.css.map",
-    "main.d681e4ac.js.map": "/iris-cacais-portfolio/static/js/main.d681e4ac.js.map",
+    "main.cb32f111.css.map": "/iris-cacais-portfolio/static/css/main.cb32f111.css.map",
+    "main.504a6e70.js.map": "/iris-cacais-portfolio/static/js/main.504a6e70.js.map",
     "787.ec144382.chunk.js.map": "/iris-cacais-portfolio/static/js/787.ec144382.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.660de03c.css",
-    "static/js/main.d681e4ac.js"
+    "static/css/main.cb32f111.css",
+    "static/js/main.504a6e70.js"
   ]
 }
