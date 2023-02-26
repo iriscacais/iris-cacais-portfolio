@@ -6,8 +6,8 @@ import './Projetos.css';
 class Projetos extends React.Component {
     render() {
         return (
-            <>
-            <h2 id="projetos">Projetos</h2>
+            <section  id="projetos">
+            <h2>Projetos</h2>
             <div className="divProjetos">
                 {dataProjetos.map((projeto, index) => (
                     <CardProjetos
@@ -22,7 +22,7 @@ class Projetos extends React.Component {
             
                 ))}
               </div>
-              </>
+              </section>
         )
     }
 

@@ -1,12 +1,8 @@
-h2 {
-    color: #f39cab;
-    margin-top: 50px;
-    text-align: center;
-}
 
 #habilidades {
-    margin-top: 5%;
-    margin-bottom: 4%;
+    margin-top: 0;
+    margin-bottom: 0%;
+    padding: 110px;
 }
 
 .hardSkills {
@@ -33,7 +29,7 @@ h2 {
     margin-bottom: 5%;
     margin-left: 8%;
     margin-right: 8%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .logoSkills {

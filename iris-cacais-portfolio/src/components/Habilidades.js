@@ -7,8 +7,8 @@ class Habilidades extends React.Component {
   
     render() {
         return (
-            <main>
-              <h2 id="habilidades">Hard Skills</h2>
+            <main id="habilidades">
+              <h2>Hard Skills</h2>
               <div className="divSkills">
                 {dataHardSkills.map((skill, index) => (
                     <CardSkills 

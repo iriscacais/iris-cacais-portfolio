@@ -7,15 +7,16 @@ h2 {
 }
 
 #projetos {
-    margin-top: 10%;
-    margin-bottom: 4%;
+    margin-top: 0;
+    margin-bottom: 0%;
+    padding: 110px;
 }
 .divProjetos {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 6px;
+    margin-top: 5px;
 
 }
 

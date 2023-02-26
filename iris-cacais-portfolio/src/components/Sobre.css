@@ -6,8 +6,12 @@
     margin-top: 0;
     width: 290px;
     margin-bottom: 2%;
+   
 }
 
+.sobre {
+    padding: 70px 0 0 0;
+}
 .divImage {
     align-items: center;
     display: flex;
